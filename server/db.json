@@ -1,0 +1,968 @@
+{
+  "contacts": [
+    {
+      "id": "c-default-1",
+      "name": "National SOS Hotline",
+      "phone": "911",
+      "relation": "Hotline"
+    },
+    {
+      "id": "c-default-2",
+      "name": "Local Roadside Towing",
+      "phone": "18005550199",
+      "relation": "Agency"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "rep-1780128668078",
+      "category": "Medical",
+      "description": "Heart attack",
+      "severity": "Critical",
+      "latitude": 11.349141768486398,
+      "longitude": 77.70811964601144,
+      "timestamp": "2026-05-30T08:11:08.078Z"
+    },
+    {
+      "id": "rep-1780084323653",
+      "category": "Breakdown",
+      "description": "Car breakdown",
+      "severity": "Medium",
+      "latitude": 11.348078904853615,
+      "longitude": 77.70390276984166,
+      "timestamp": "2026-05-29T19:52:03.653Z"
+    }
+  ],
+  "sosLogs": [
+    {
+      "id": "sos-1780129152040",
+      "latitude": 11.348028840386247,
+      "longitude": 77.70389057765799,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "timestamp": "2026-05-30T08:19:12.284Z",
+      "source": "User Absolute Trigger",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "contactsNotifiedCount": 2,
+      "nearbyFacilitiesCount": 10,
+      "nearbyFacilities": [
+        {
+          "name": "Abinav Clinic",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.66",
+          "latitude": 11.3506795,
+          "longitude": 77.6984595
+        },
+        {
+          "name": "K.G. Baby Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.70",
+          "latitude": 11.343848,
+          "longitude": 77.699081
+        },
+        {
+          "name": "LVS Eye Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.76",
+          "latitude": 11.3475062,
+          "longitude": 77.6969254
+        },
+        {
+          "name": "Ranm Malathy Vijayakumar Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.92",
+          "latitude": 11.3413334,
+          "longitude": 77.708922
+        },
+        {
+          "name": "Veerappanchataram Government Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.02",
+          "latitude": 11.34858,
+          "longitude": 77.713203
+        },
+        {
+          "name": "Erode Women and Children Clinic",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.08",
+          "latitude": 11.3420279,
+          "longitude": 77.7116815
+        },
+        {
+          "name": "APN Clinic",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.12",
+          "latitude": 11.3515168,
+          "longitude": 77.7135642
+        },
+        {
+          "name": "Arun Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.14",
+          "latitude": 11.3447248,
+          "longitude": 77.7138215
+        },
+        {
+          "name": "Kalyani Kidney Care Centre",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.17",
+          "latitude": 11.3383604,
+          "longitude": 77.7080879
+        },
+        {
+          "name": "Sri Raghavendra Eye Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.19",
+          "latitude": 11.3473833,
+          "longitude": 77.6929508
+        }
+      ],
+      "registeredHospitalsAlerted": 2,
+      "autoCalledFacility": {
+        "name": "Abinav Clinic",
+        "phone": null,
+        "distance": "0.66"
+      }
+    },
+    {
+      "id": "sos-1780128650278",
+      "latitude": 11.349141768486398,
+      "longitude": 77.70811964601144,
+      "address": "14/83, Veerappan Chattram Veerappan Chattram, Erode, 638004",
+      "timestamp": "2026-05-30T08:10:50.375Z",
+      "source": "User Absolute Trigger",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "contactsNotifiedCount": 2,
+      "nearbyFacilitiesCount": 10,
+      "nearbyFacilities": [
+        {
+          "name": "Abinav Clinic",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.66",
+          "latitude": 11.3506795,
+          "longitude": 77.6984595
+        },
+        {
+          "name": "K.G. Baby Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.70",
+          "latitude": 11.343848,
+          "longitude": 77.699081
+        },
+        {
+          "name": "LVS Eye Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.76",
+          "latitude": 11.3475062,
+          "longitude": 77.6969254
+        },
+        {
+          "name": "Ranm Malathy Vijayakumar Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.92",
+          "latitude": 11.3413334,
+          "longitude": 77.708922
+        },
+        {
+          "name": "Veerappanchataram Government Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.02",
+          "latitude": 11.34858,
+          "longitude": 77.713203
+        },
+        {
+          "name": "Erode Women and Children Clinic",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.08",
+          "latitude": 11.3420279,
+          "longitude": 77.7116815
+        },
+        {
+          "name": "APN Clinic",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.12",
+          "latitude": 11.3515168,
+          "longitude": 77.7135642
+        },
+        {
+          "name": "Arun Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.14",
+          "latitude": 11.3447248,
+          "longitude": 77.7138215
+        },
+        {
+          "name": "Kalyani Kidney Care Centre",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.17",
+          "latitude": 11.3383604,
+          "longitude": 77.7080879
+        },
+        {
+          "name": "Sri Raghavendra Eye Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.19",
+          "latitude": 11.3473833,
+          "longitude": 77.6929508
+        }
+      ],
+      "registeredHospitalsAlerted": 2,
+      "autoCalledFacility": {
+        "name": "Abinav Clinic",
+        "phone": null,
+        "distance": "0.66"
+      }
+    },
+    {
+      "id": "sos-1780085194928",
+      "latitude": 11.348028840386247,
+      "longitude": 77.70389057765799,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "timestamp": "2026-05-29T20:06:35.432Z",
+      "source": "User Absolute Trigger",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "contactsNotifiedCount": 2,
+      "nearbyFacilitiesCount": 10,
+      "nearbyFacilities": [
+        {
+          "name": "Abinav Clinic",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.66",
+          "latitude": 11.3506795,
+          "longitude": 77.6984595
+        },
+        {
+          "name": "K.G. Baby Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.70",
+          "latitude": 11.343848,
+          "longitude": 77.699081
+        },
+        {
+          "name": "LVS Eye Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.76",
+          "latitude": 11.3475062,
+          "longitude": 77.6969254
+        },
+        {
+          "name": "Ranm Malathy Vijayakumar Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "0.92",
+          "latitude": 11.3413334,
+          "longitude": 77.708922
+        },
+        {
+          "name": "Veerappanchataram Government Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.02",
+          "latitude": 11.34858,
+          "longitude": 77.713203
+        },
+        {
+          "name": "Erode Women and Children Clinic",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.08",
+          "latitude": 11.3420279,
+          "longitude": 77.7116815
+        },
+        {
+          "name": "APN Clinic",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.12",
+          "latitude": 11.3515168,
+          "longitude": 77.7135642
+        },
+        {
+          "name": "Arun Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.14",
+          "latitude": 11.3447248,
+          "longitude": 77.7138215
+        },
+        {
+          "name": "Kalyani Kidney Care Centre",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.17",
+          "latitude": 11.3383604,
+          "longitude": 77.7080879
+        },
+        {
+          "name": "Sri Raghavendra Eye Hospital",
+          "category": "Hospital",
+          "phone": null,
+          "distance": "1.19",
+          "latitude": 11.3473833,
+          "longitude": 77.6929508
+        }
+      ],
+      "registeredHospitalsAlerted": 2,
+      "autoCalledFacility": {
+        "name": "Abinav Clinic",
+        "phone": null,
+        "distance": "0.66"
+      }
+    },
+    {
+      "id": "sos-1780082726896",
+      "latitude": 11.348078904853615,
+      "longitude": 77.70390276984166,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "timestamp": "2026-05-29T19:25:27.371Z",
+      "source": "User Absolute Trigger",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "contactsNotifiedCount": 2,
+      "nearbyFacilitiesCount": 10,
+      "nearbyFacilities": [
+        {
+          "name": "Abinav Clinic",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.66",
+          "latitude": 11.3506795,
+          "longitude": 77.6984595
+        },
+        {
+          "name": "K.G. Baby Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.71",
+          "latitude": 11.343848,
+          "longitude": 77.699081
+        },
+        {
+          "name": "LVS Eye Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.77",
+          "latitude": 11.3475062,
+          "longitude": 77.6969254
+        },
+        {
+          "name": "Ranm Malathy Vijayakumar Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.93",
+          "latitude": 11.3413334,
+          "longitude": 77.708922
+        },
+        {
+          "name": "Veerappanchataram Government Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.01",
+          "latitude": 11.34858,
+          "longitude": 77.713203
+        },
+        {
+          "name": "Erode Women and Children Clinic",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.08",
+          "latitude": 11.3420279,
+          "longitude": 77.7116815
+        },
+        {
+          "name": "APN Clinic",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.12",
+          "latitude": 11.3515168,
+          "longitude": 77.7135642
+        },
+        {
+          "name": "Arun Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.14",
+          "latitude": 11.3447248,
+          "longitude": 77.7138215
+        },
+        {
+          "name": "Kalyani Kidney Care Centre",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.17",
+          "latitude": 11.3383604,
+          "longitude": 77.7080879
+        },
+        {
+          "name": "S R Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.19",
+          "latitude": 11.3587931,
+          "longitude": 77.7030647
+        }
+      ],
+      "registeredHospitalsAlerted": 2,
+      "autoCalledFacility": {
+        "name": "Abinav Clinic",
+        "phone": "911",
+        "distance": "0.66"
+      }
+    },
+    {
+      "id": "sos-1780082419634",
+      "latitude": 11.34808201939959,
+      "longitude": 77.70393327924843,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "timestamp": "2026-05-29T19:20:20.118Z",
+      "source": "User Absolute Trigger",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "contactsNotifiedCount": 2,
+      "nearbyFacilitiesCount": 10,
+      "nearbyFacilities": [
+        {
+          "name": "Abinav Clinic",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.66",
+          "latitude": 11.3506795,
+          "longitude": 77.6984595
+        },
+        {
+          "name": "K.G. Baby Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.71",
+          "latitude": 11.343848,
+          "longitude": 77.699081
+        },
+        {
+          "name": "LVS Eye Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.77",
+          "latitude": 11.3475062,
+          "longitude": 77.6969254
+        },
+        {
+          "name": "Ranm Malathy Vijayakumar Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.93",
+          "latitude": 11.3413334,
+          "longitude": 77.708922
+        },
+        {
+          "name": "Veerappanchataram Government Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.01",
+          "latitude": 11.34858,
+          "longitude": 77.713203
+        },
+        {
+          "name": "Erode Women and Children Clinic",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.08",
+          "latitude": 11.3420279,
+          "longitude": 77.7116815
+        },
+        {
+          "name": "APN Clinic",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.12",
+          "latitude": 11.3515168,
+          "longitude": 77.7135642
+        },
+        {
+          "name": "Arun Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.14",
+          "latitude": 11.3447248,
+          "longitude": 77.7138215
+        },
+        {
+          "name": "Kalyani Kidney Care Centre",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.17",
+          "latitude": 11.3383604,
+          "longitude": 77.7080879
+        },
+        {
+          "name": "S R Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.19",
+          "latitude": 11.3587931,
+          "longitude": 77.7030647
+        }
+      ],
+      "registeredHospitalsAlerted": 1,
+      "autoCalledFacility": {
+        "name": "Abinav Clinic",
+        "phone": "911",
+        "distance": "0.66"
+      }
+    },
+    {
+      "id": "sos-1780082306939",
+      "latitude": 11.34808201939959,
+      "longitude": 77.70393327924843,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "timestamp": "2026-05-29T19:18:27.420Z",
+      "source": "User Absolute Trigger",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "contactsNotifiedCount": 2,
+      "nearbyFacilitiesCount": 10,
+      "nearbyFacilities": [
+        {
+          "name": "Abinav Clinic",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.66",
+          "latitude": 11.3506795,
+          "longitude": 77.6984595
+        },
+        {
+          "name": "K.G. Baby Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.71",
+          "latitude": 11.343848,
+          "longitude": 77.699081
+        },
+        {
+          "name": "LVS Eye Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.77",
+          "latitude": 11.3475062,
+          "longitude": 77.6969254
+        },
+        {
+          "name": "Ranm Malathy Vijayakumar Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "0.93",
+          "latitude": 11.3413334,
+          "longitude": 77.708922
+        },
+        {
+          "name": "Veerappanchataram Government Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.01",
+          "latitude": 11.34858,
+          "longitude": 77.713203
+        },
+        {
+          "name": "Erode Women and Children Clinic",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.08",
+          "latitude": 11.3420279,
+          "longitude": 77.7116815
+        },
+        {
+          "name": "APN Clinic",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.12",
+          "latitude": 11.3515168,
+          "longitude": 77.7135642
+        },
+        {
+          "name": "Arun Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.14",
+          "latitude": 11.3447248,
+          "longitude": 77.7138215
+        },
+        {
+          "name": "Kalyani Kidney Care Centre",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.17",
+          "latitude": 11.3383604,
+          "longitude": 77.7080879
+        },
+        {
+          "name": "S R Hospital",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "1.19",
+          "latitude": 11.3587931,
+          "longitude": 77.7030647
+        }
+      ],
+      "registeredHospitalsAlerted": 1,
+      "autoCalledFacility": {
+        "name": "Abinav Clinic",
+        "phone": "911",
+        "distance": "0.66"
+      }
+    },
+    {
+      "id": "sos-1780081007791",
+      "latitude": 11.348219229732765,
+      "longitude": 77.70406833290733,
+      "address": "18/A, 3rd Street 3rd Street, Erode, 638011",
+      "timestamp": "2026-05-29T18:56:48.209Z",
+      "source": "User Absolute Trigger",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "contactsNotifiedCount": 2,
+      "nearbyFacilitiesCount": 3,
+      "nearbyFacilities": [
+        {
+          "name": "Sri Venkateswara Kinnathukadavu",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "4.49",
+          "latitude": 10.8241085,
+          "longitude": 77.0191884
+        },
+        {
+          "name": "S.V. Medical Centre",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "4.66",
+          "latitude": 10.8323198,
+          "longitude": 77.0180671
+        },
+        {
+          "name": "Government Hospital, Kinathukadavu",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "4.71",
+          "latitude": 10.82107,
+          "longitude": 77.017406
+        }
+      ],
+      "registeredHospitalsAlerted": 1,
+      "autoCalledFacility": {
+        "name": "Sri Venkateswara Kinnathukadavu",
+        "phone": "911",
+        "distance": "4.49"
+      }
+    },
+    {
+      "id": "sos-1780080963167",
+      "latitude": 10.825867766795415,
+      "longitude": 77.06022612217517,
+      "address": "Kinathukadavu , Coimbatore, 641202",
+      "timestamp": "2026-05-29T18:56:03.584Z",
+      "source": "User Absolute Trigger",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "contactsNotifiedCount": 2,
+      "nearbyFacilitiesCount": 3,
+      "nearbyFacilities": [
+        {
+          "name": "Sri Venkateswara Kinnathukadavu",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "4.49",
+          "latitude": 10.8241085,
+          "longitude": 77.0191884
+        },
+        {
+          "name": "S.V. Medical Centre",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "4.66",
+          "latitude": 10.8323198,
+          "longitude": 77.0180671
+        },
+        {
+          "name": "Government Hospital, Kinathukadavu",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "4.71",
+          "latitude": 10.82107,
+          "longitude": 77.017406
+        }
+      ],
+      "registeredHospitalsAlerted": 0,
+      "autoCalledFacility": {
+        "name": "Sri Venkateswara Kinnathukadavu",
+        "phone": "911",
+        "distance": "4.49"
+      }
+    },
+    {
+      "id": "sos-1780080806614",
+      "latitude": 10.825867766795415,
+      "longitude": 77.06022612217517,
+      "address": "Kinathukadavu , Coimbatore, 641202",
+      "timestamp": "2026-05-29T18:53:27.020Z",
+      "source": "User Absolute Trigger",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "contactsNotifiedCount": 2,
+      "nearbyFacilitiesCount": 3,
+      "nearbyFacilities": [
+        {
+          "name": "Sri Venkateswara Kinnathukadavu",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "4.49",
+          "latitude": 10.8241085,
+          "longitude": 77.0191884
+        },
+        {
+          "name": "S.V. Medical Centre",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "4.66",
+          "latitude": 10.8323198,
+          "longitude": 77.0180671
+        },
+        {
+          "name": "Government Hospital, Kinathukadavu",
+          "category": "Hospital",
+          "phone": "911",
+          "distance": "4.71",
+          "latitude": 10.82107,
+          "longitude": 77.017406
+        }
+      ],
+      "registeredHospitalsAlerted": 0,
+      "autoCalledFacility": {
+        "name": "Sri Venkateswara Kinnathukadavu",
+        "phone": "911",
+        "distance": "4.49"
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1780080793643",
+      "name": "Abdhul L",
+      "email": "abdhul@gmail.com",
+      "passwordHash": "$2a$10$fiu1ClXmKKGwFseBto3XZu6t/l7Ds/DEqYjNYIrxHPp47eJSMfbvi",
+      "phone": "9344660105",
+      "role": "user",
+      "createdAt": "2026-05-29T18:53:13.643Z"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "hospital-1780080926856",
+      "name": "city hospital",
+      "email": "cityhospital@gamil.com",
+      "passwordHash": "$2a$10$sHZrcBzgrwI3hEdWt9TqE.xvTIBN2YbjCWsOzd2IYmv0OlptWPSpi",
+      "phone": "9344660104",
+      "address": "Erode manickampalayam",
+      "latitude": 11.348046,
+      "longitude": 77.7044665,
+      "role": "hospital",
+      "createdAt": "2026-05-29T18:55:26.856Z",
+      "_distanceKm": 0.06281665498379067
+    },
+    {
+      "id": "hospital-1780082700937",
+      "name": "Erode GH",
+      "email": "gh@gmail.com",
+      "passwordHash": "$2a$10$GKAuoBAtyBhEMQ/UddUiDuMiGK.f.TgxTIzQMDtGw2Zk59zHk/4uC",
+      "phone": "9344494275",
+      "address": "Erode GH roundana",
+      "latitude": 11.34055,
+      "longitude": 77.71682,
+      "role": "hospital",
+      "createdAt": "2026-05-29T19:25:00.937Z",
+      "_distanceKm": 1.6366246017192028
+    }
+  ],
+  "hospitalAlerts": [
+    {
+      "id": "alert-1780081007791-hospital-1780080926856",
+      "sosId": "sos-1780081007791",
+      "hospitalId": "hospital-1780080926856",
+      "hospitalName": "city hospital",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.348219229732765,
+      "longitude": 77.70406833290733,
+      "address": "18/A, 3rd Street 3rd Street, Erode, 638011",
+      "distanceKm": 0.05,
+      "timestamp": "2026-05-29T18:56:48.209Z",
+      "status": "dispatched",
+      "dispatchedAt": "2026-05-29T18:57:51.925Z"
+    },
+    {
+      "id": "alert-1780082306939-hospital-1780080926856",
+      "sosId": "sos-1780082306939",
+      "hospitalId": "hospital-1780080926856",
+      "hospitalName": "city hospital",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.34808201939959,
+      "longitude": 77.70393327924843,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "distanceKm": 0.06,
+      "timestamp": "2026-05-29T19:18:27.420Z",
+      "status": "pending"
+    },
+    {
+      "id": "alert-1780082419634-hospital-1780080926856",
+      "sosId": "sos-1780082419634",
+      "hospitalId": "hospital-1780080926856",
+      "hospitalName": "city hospital",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.34808201939959,
+      "longitude": 77.70393327924843,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "distanceKm": 0.06,
+      "timestamp": "2026-05-29T19:20:20.118Z",
+      "status": "pending"
+    },
+    {
+      "id": "alert-1780082726896-hospital-1780080926856",
+      "sosId": "sos-1780082726896",
+      "hospitalId": "hospital-1780080926856",
+      "hospitalName": "city hospital",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.348078904853615,
+      "longitude": 77.70390276984166,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "distanceKm": 0.06,
+      "timestamp": "2026-05-29T19:25:27.371Z",
+      "status": "pending"
+    },
+    {
+      "id": "alert-1780082726896-hospital-1780082700937",
+      "sosId": "sos-1780082726896",
+      "hospitalId": "hospital-1780082700937",
+      "hospitalName": "Erode GH",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.348078904853615,
+      "longitude": 77.70390276984166,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "distanceKm": 1.64,
+      "timestamp": "2026-05-29T19:25:27.371Z",
+      "status": "dispatched",
+      "dispatchedAt": "2026-05-29T19:26:41.106Z"
+    },
+    {
+      "id": "alert-1780085194928-hospital-1780080926856",
+      "sosId": "sos-1780085194928",
+      "hospitalId": "hospital-1780080926856",
+      "hospitalName": "city hospital",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.348028840386247,
+      "longitude": 77.70389057765799,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "distanceKm": 0.06,
+      "timestamp": "2026-05-29T20:06:35.432Z",
+      "status": "pending"
+    },
+    {
+      "id": "alert-1780085194928-hospital-1780082700937",
+      "sosId": "sos-1780085194928",
+      "hospitalId": "hospital-1780082700937",
+      "hospitalName": "Erode GH",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.348028840386247,
+      "longitude": 77.70389057765799,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "distanceKm": 1.64,
+      "timestamp": "2026-05-29T20:06:35.432Z",
+      "status": "pending"
+    },
+    {
+      "id": "alert-1780128650278-hospital-1780080926856",
+      "sosId": "sos-1780128650278",
+      "hospitalId": "hospital-1780080926856",
+      "hospitalName": "city hospital",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.349141768486398,
+      "longitude": 77.70811964601144,
+      "address": "14/83, Veerappan Chattram Veerappan Chattram, Erode, 638004",
+      "distanceKm": 0.42,
+      "timestamp": "2026-05-30T08:10:50.375Z",
+      "status": "pending"
+    },
+    {
+      "id": "alert-1780128650278-hospital-1780082700937",
+      "sosId": "sos-1780128650278",
+      "hospitalId": "hospital-1780082700937",
+      "hospitalName": "Erode GH",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.349141768486398,
+      "longitude": 77.70811964601144,
+      "address": "14/83, Veerappan Chattram Veerappan Chattram, Erode, 638004",
+      "distanceKm": 1.35,
+      "timestamp": "2026-05-30T08:10:50.375Z",
+      "status": "dispatched",
+      "dispatchedAt": "2026-05-30T08:11:36.553Z"
+    },
+    {
+      "id": "alert-1780129152040-hospital-1780080926856",
+      "sosId": "sos-1780129152040",
+      "hospitalId": "hospital-1780080926856",
+      "hospitalName": "city hospital",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.348028840386247,
+      "longitude": 77.70389057765799,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "distanceKm": 0.06,
+      "timestamp": "2026-05-30T08:19:12.284Z",
+      "status": "pending"
+    },
+    {
+      "id": "alert-1780129152040-hospital-1780082700937",
+      "sosId": "sos-1780129152040",
+      "hospitalId": "hospital-1780082700937",
+      "hospitalName": "Erode GH",
+      "userId": "user-1780080793643",
+      "userName": "Abdhul L",
+      "latitude": 11.348028840386247,
+      "longitude": 77.70389057765799,
+      "address": "16-D, Manikampalayam Housing Unit Manikampalayam Housing Unit, Erode, 638011",
+      "distanceKm": 1.64,
+      "timestamp": "2026-05-30T08:19:12.284Z",
+      "status": "pending"
+    }
+  ]
+}
